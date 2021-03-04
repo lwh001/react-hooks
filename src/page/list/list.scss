@@ -1,0 +1,71 @@
+body{
+    background: #000 !important;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:143px;
+    height: 144px;
+    position: relative;
+    .w{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        animation: ww 5s linear infinite ;
+    }
+    .n{
+        animation: nn 5s linear infinite ;
+    }
+}
+@keyframes ww{
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(360deg);}
+}
+
+@keyframes nn{
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(-360deg);}
+}
+.boxxx {
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+  .boxxx1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  circle {
+    stroke-width: 8px;
+    transform-origin: center;
+  }
+  .inner {
+    stroke: #00ffff;
+    transform: scale(0.9) rotate(135deg);
+  }
+  .inner1 {
+    stroke: #00ffff;
+    transform: scale(0.9) rotate(135deg);
+  }
+  .bg {
+    stroke: #eeeeee;
+    transform: scale(0.9);
+  }
+  .target{
+      color: #fff;
+      font-size: 30px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -25px;
+      margin-top: -25px;
+
+  }
